@@ -10,7 +10,14 @@ arrowRestSum(1, 2, 3, 4, 5, 6, 7, 8, 9); // => 45
 arrowRestSum(0); // => 0
 ***********************************************************************/
 
-// Your code here
+const arrowRestSum = (...num) => {
+  let sum = 0
+  for (let i of num) {
+    sum += i
+  }
+  return sum
+}
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
